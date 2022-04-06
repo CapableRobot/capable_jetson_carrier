@@ -10,7 +10,6 @@
     (rev "v1.0")
     (company "Capable Robot Components, Inc.")
     (comment 1 "www.capablerobot.com")
-    (comment 2 "")
   )
 
   (lib_symbols
@@ -89,10 +88,10 @@
     (property "Reference" "N1" (id 0) (at 388.9756 244.6528 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 388.9756 246.9642 0)
+    (property "Value" "antmicro_logo" (id 1) (at 388.9756 246.9642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 381 240.665 0)
+    (property "Footprint" "jetson-nano-baseboard-footprints:antmicro-logo_scaled_15mm" (id 2) (at 381 240.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 383.54 238.125 0)
@@ -106,10 +105,10 @@
     (property "Reference" "N2" (id 0) (at 389.1026 239.3188 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 389.1026 241.6302 0)
+    (property "Value" "oshw_logo" (id 1) (at 389.1026 241.6302 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 384.683 245.491 0)
+    (property "Footprint" "jetson-nano-baseboard-footprints:oshw-logo" (id 2) (at 384.683 245.491 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 384.175 239.395 0)
@@ -123,10 +122,10 @@
     (property "Reference" "N3" (id 0) (at 389.1026 233.6038 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 389.1026 235.9152 0)
+    (property "Value" "crc_logo" (id 1) (at 389.1026 235.9152 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 384.683 239.776 0)
+    (property "Footprint" "jetson-nano-baseboard-footprints:CRC_logo_15mm" (id 2) (at 384.683 239.776 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 384.175 233.68 0)
@@ -475,9 +474,6 @@
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-00005e710333"
       (reference "#GND_0118") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-000060d686f7"
-      (reference "#GND_0119") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006096d016/00000000-0000-0000-0000-00005e7104e1"
       (reference "#GND_0120") (unit 1) (value "GND") (footprint "")
@@ -1475,9 +1471,6 @@
     (path "/00000000-0000-0000-0000-0000608df3e5/00000000-0000-0000-0000-000062708db4"
       (reference "R131") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-000062df2d52"
-      (reference "R132") (unit 1) (value "R_0R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
-    )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710410"
       (reference "REC1") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TL3340AF160QG")
     )
@@ -1612,9 +1605,6 @@
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103eb"
       (reference "TP29") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
-    )
-    (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-00005f7a644a"
-      (reference "TP30") (unit 1) (value "TC2030") (footprint "jetson-nano-baseboard-footprints:TC2030")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e7103ea"
       (reference "TP31") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
