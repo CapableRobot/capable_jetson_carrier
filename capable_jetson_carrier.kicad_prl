@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "0001000_8000007f",
+    "visible_layers": "0005000_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "jetson-nano-baseboard.kicad_prl",
+    "filename": "capable_jetson_carrier.kicad_prl",
     "version": 3
   },
   "project": {
