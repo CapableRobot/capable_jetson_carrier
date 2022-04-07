@@ -507,7 +507,6 @@
         "microvia_drill": 0.1,
         "name": "Z90_in",
         "nets": [
-          "OTG_USB_VBUS",
           "USB1_D_N",
           "USB1_D_P"
         ],
