@@ -523,8 +523,6 @@
           "/USB/C_USBSS_TX2_P",
           "/USB/C_USBSS_TX6_N",
           "/USB/C_USBSS_TX6_P",
-          "/USB/DBG_USB_D_N",
-          "/USB/DBG_USB_D_P",
           "/USB/EN_MUX",
           "/USB/USBC_ADDR",
           "/USB/USBC_FAULT",
