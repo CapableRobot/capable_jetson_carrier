@@ -91,7 +91,7 @@
     (property "Value" "antmicro_logo" (id 1) (at 388.9756 246.9642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jetson-nano-baseboard-footprints:antmicro-logo_scaled_15mm" (id 2) (at 381 240.665 0)
+    (property "Footprint" "jetson-nano-baseboard-footprints:antmicro-logo" (id 2) (at 381 240.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 383.54 238.125 0)
@@ -694,7 +694,7 @@
       (reference "J5") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_Molex:Molex_Pico-Lock_504050-0591_1x05-1MP_P1.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-0000605d7511"
-      (reference "J6") (unit 1) (value "WE_68715014522") (footprint "jetson-nano-baseboard-footprints:WE_68715014522_ONE-SIDE")
+      (reference "J6") (unit 1) (value "WE_68715014522") (footprint "jetson-nano-baseboard-footprints:WE_68715014522")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-0000605e5dc9"
       (reference "J7") (unit 1) (value "WE_68715014022") (footprint "jetson-nano-baseboard-footprints:WE_68715014022")
@@ -757,7 +757,7 @@
       (reference "M2") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:jetson-nano-module")
     )
     (path "/00000000-0000-0000-0000-000060bdca6d"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "jetson-nano-baseboard-footprints:antmicro-logo_scaled_15mm")
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "jetson-nano-baseboard-footprints:antmicro-logo")
     )
     (path "/00000000-0000-0000-0000-000060bdce33"
       (reference "N2") (unit 1) (value "oshw_logo") (footprint "jetson-nano-baseboard-footprints:oshw-logo")
@@ -811,10 +811,10 @@
       (reference "R11") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/93adc4d8-b8ca-4365-8648-37e0ecffa5a9"
-      (reference "R12") (unit 1) (value "R_0R_0603") (footprint "jetson-nano-baseboard-footprints:0603-res")
+      (reference "R12") (unit 1) (value "R_0R_0603") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/a7259f25-67a2-44e4-9c1d-e531ba0e33bc"
-      (reference "R13") (unit 1) (value "R_0R_0603") (footprint "jetson-nano-baseboard-footprints:0603-res")
+      (reference "R13") (unit 1) (value "R_0R_0603") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000062cd1118"
       (reference "R14") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
@@ -988,7 +988,7 @@
       (reference "SP6") (unit 1) (value "9774060151") (footprint "jetson-nano-baseboard-footprints:M2.5-6mm")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e710438"
-      (reference "SP7") (unit 1) (value "9774040151") (footprint "jetson-nano-baseboard-footprints:9774060151")
+      (reference "SP7") (unit 1) (value "9774040151") (footprint "jetson-nano-baseboard-footprints:M2.5-4mm")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00006073683d"
       (reference "T2") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
