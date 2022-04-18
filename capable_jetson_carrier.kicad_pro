@@ -565,7 +565,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "capable_jetson_carrier.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -615,7 +615,7 @@
     ],
     [
       "00000000-0000-0000-0000-000060b0f7be",
-      "ID Serial"
+      "I2C Devices"
     ],
     [
       "00000000-0000-0000-0000-000060d9f63d",
@@ -632,6 +632,10 @@
     [
       "00000000-0000-0000-0000-0000608e1758",
       "Interfaces"
+    ],
+    [
+      "35dea4d2-7953-4bd0-87f6-6949b5324b8f",
+      "SPI Devices"
     ],
     [
       "00000000-0000-0000-0000-0000608df3e5",
