@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name jetson-nano-baseboard-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/jetson-nano-baseboard-footprints)(options "")(descr ""))
+  (lib (name "jetson-nano-baseboard-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/jetson-nano-baseboard-footprints")(options "")(descr ""))
+  (lib (name "capablerobot-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/capablerobot-footprints")(options "")(descr ""))
 )
