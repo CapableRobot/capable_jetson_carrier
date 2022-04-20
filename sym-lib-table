@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "jetson-nano-baseboard")(type "KiCad")(uri "${KIPRJMOD}/lib/jetson-nano-baseboard.kicad_sym")(options "")(descr ""))
   (lib (name "capablerobot-sensors")(type "KiCad")(uri "${KIPRJMOD}/lib/capablerobot-sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "capablerobot-power")(type "KiCad")(uri "${KIPRJMOD}/lib/capablerobot-power.kicad_sym")(options "")(descr ""))
 )
