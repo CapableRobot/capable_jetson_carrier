@@ -310,6 +310,9 @@
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e71044d"
       (reference "#GND_038") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000608e1758/5ec26e06-d629-46f4-9a15-d54f880ab710"
+      (reference "#GND_039") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-00005e71044b"
       (reference "#GND_040") (unit 1) (value "GND") (footprint "")
     )
@@ -807,6 +810,9 @@
     )
     (path "/00000000-0000-0000-0000-0000608e1758/a3da70b9-add4-40a4-b96b-aebe77d7529e"
       (reference "J4") (unit 1) (value "Bus_M.2_Socket_E") (footprint "jetson-nano-baseboard-footprints:TE_2199119-4")
+    )
+    (path "/00000000-0000-0000-0000-0000608e1758/4c119a0b-46c5-4fb5-9249-120882e1ba3b"
+      (reference "J5") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/ca0916b2-6b2e-4f92-a0ce-fafc3f6b326a"
       (reference "J6") (unit 1) (value "Conn_01x32_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-32S-0.5SH_1x32-1MP_P0.50mm_Horizontal")
