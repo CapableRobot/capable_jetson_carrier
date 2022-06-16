@@ -400,6 +400,9 @@
     (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/d1eeda82-db62-43c2-af4d-75c78a7aaeb7"
       (reference "#GND_068") (unit 1) (value "GND") (footprint "")
     )
+    (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/67ef86a1-6445-4523-bfd2-b23e52a0b283"
+      (reference "#GND_069") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00005e7103cc"
       (reference "#GND_073") (unit 1) (value "GND") (footprint "")
     )
@@ -832,6 +835,9 @@
     (path "/00000000-0000-0000-0000-000060d9f63d/ada48a66-976c-4d55-a150-305520acba68"
       (reference "J10") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
     )
+    (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/0561bd3a-a868-4591-a8d4-7a501a48f528"
+      (reference "J11") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_Molex:Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-00006210b794"
       (reference "J12") (unit 1) (value "533980471") (footprint "jetson-nano-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
     )
@@ -1116,6 +1122,15 @@
     )
     (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/80b8114b-d296-4d03-8978-43b1df55ab0b"
       (reference "R70") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/55512638-5f4d-4f37-92fa-0511e163bfcf"
+      (reference "R71") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/d33d330b-dcb3-421b-b289-672b51de6652"
+      (reference "R72") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/35dea4d2-7953-4bd0-87f6-6949b5324b8f/8c7149cb-ac45-4fd7-945a-056b07afe65b"
+      (reference "R73") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000061b2ef7a"
       (reference "R74") (unit 1) (value "R_510k_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
