@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,17 @@
           "width": 0.185
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|107820001|122300001|43bf289a-7d48-4b56-b186-1f890854c5f9|492ebf1e-af1f-4691-bddc-96b08317fd9a",
+        "courtyards_overlap|112531067|119220001|26da3a5a-acce-4ba4-b961-159009f5d93b|eb819ea1-efde-4136-95a5-4c5d60960987",
+        "courtyards_overlap|112623809|120135001|44234758-a0aa-4225-a0d7-15a67df397a1|eb819ea1-efde-4136-95a5-4c5d60960987",
+        "courtyards_overlap|112629999|118330001|26da3a5a-acce-4ba4-b961-159009f5d93b|e8e60603-cc6d-422b-b82a-ec69a56ffada",
+        "courtyards_overlap|114415215|122300001|492ebf1e-af1f-4691-bddc-96b08317fd9a|bbce655c-bc89-47fd-96a3-cf2638339661",
+        "courtyards_overlap|115815215|122300001|1540a3de-22c4-4150-be88-ed4cf7f98e25|492ebf1e-af1f-4691-bddc-96b08317fd9a",
+        "courtyards_overlap|138499999|82999999|9d7f5a10-b846-41b3-b57f-c6c3780312d1|e99803fe-1de8-4281-93d5-b5e7a6cb274c",
+        "courtyards_overlap|77826373|123579999|8b93c1f6-f4db-4493-bdbc-da2ea8616252|905e3d74-8a37-42a4-b797-fbcc9242c57f",
+        "courtyards_overlap|87950001|115250001|00000000-0000-0000-0000-00006195f07d|8b93c1f6-f4db-4493-bdbc-da2ea8616252"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -402,9 +412,9 @@
       {
         "bus_width": 12.0,
         "clearance": 0.125,
-        "diff_pair_gap": 0.125,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
+        "diff_pair_width": 0.1397,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -419,24 +429,6 @@
           "ENET_TRD3_N",
           "ENET_TRD3_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.125,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.125,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Z100_in",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -465,14 +457,24 @@
       {
         "bus_width": 12.0,
         "clearance": 0.125,
-        "diff_pair_gap": 0.145,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.185,
+        "diff_pair_width": 0.1905,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z85_ext",
         "nets": [
+          "/Interfaces/C_PCIE0_TX0_N",
+          "/Interfaces/C_PCIE0_TX0_P",
+          "/Interfaces/C_PCIE0_TX1_N",
+          "/Interfaces/C_PCIE0_TX1_P",
+          "/Interfaces/C_PCIE0_TX2_N",
+          "/Interfaces/C_PCIE0_TX2_P",
+          "/Interfaces/C_PCIE0_TX3_N",
+          "/Interfaces/C_PCIE0_TX3_P",
+          "/Interfaces/C_PCIE1_TX0_N",
+          "/Interfaces/C_PCIE1_TX0_P",
           "PCIE0_CLK_N",
           "PCIE0_CLK_P",
           "PCIE0_RX0_N",
@@ -508,52 +510,24 @@
       {
         "bus_width": 12.0,
         "clearance": 0.125,
-        "diff_pair_gap": 0.125,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.185,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Z85_in",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.125,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.23,
+        "diff_pair_width": 0.1778,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z90_ext",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.125,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Z90_in",
         "nets": [
+          "USB0_D_N",
+          "USB0_D_P",
           "USB1_D_N",
-          "USB1_D_P"
+          "USB1_D_P",
+          "USB2_D_N",
+          "USB2_D_P",
+          "USBSS_RX_N",
+          "USBSS_RX_P",
+          "USBSS_TX_N",
+          "USBSS_TX_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -565,20 +539,48 @@
       {
         "bus_width": 12.0,
         "clearance": 0.1,
-        "diff_pair_gap": 0.125,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.185,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Z95_ext",
         "nets": [
+          "/CSI/CSI0_CLK_N",
+          "/CSI/CSI0_CLK_P",
+          "/CSI/CSI0_D0_N",
+          "/CSI/CSI0_D0_P",
+          "/CSI/CSI0_D1_N",
+          "/CSI/CSI0_D1_P",
           "/CSI/CSI1_CLK_N",
           "/CSI/CSI1_CLK_P",
           "/CSI/CSI1_D0_N",
           "/CSI/CSI1_D0_P",
           "/CSI/CSI1_D1_N",
-          "/CSI/CSI1_D1_P"
+          "/CSI/CSI1_D1_P",
+          "/CSI/CSI2_CLK_N",
+          "/CSI/CSI2_CLK_P",
+          "/CSI/CSI2_D0_N",
+          "/CSI/CSI2_D0_P",
+          "/CSI/CSI2_D1_N",
+          "/CSI/CSI2_D1_P",
+          "/CSI/CSI3_CLK_N",
+          "/CSI/CSI3_CLK_P",
+          "/CSI/CSI3_D0_N",
+          "/CSI/CSI3_D0_P",
+          "/CSI/CSI3_D1_N",
+          "/CSI/CSI3_D1_P",
+          "/CSI/CSI4_CLK_N",
+          "/CSI/CSI4_CLK_P",
+          "/CSI/CSI4_D0_N",
+          "/CSI/CSI4_D0_P",
+          "/CSI/CSI4_D1_N",
+          "/CSI/CSI4_D1_P",
+          "/CSI/CSI4_D2_N",
+          "/CSI/CSI4_D2_P",
+          "/CSI/CSI4_D3_N",
+          "/CSI/CSI4_D3_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -692,6 +694,10 @@
     [
       "00000000-0000-0000-0000-0000608df3e5",
       "USB"
+    ],
+    [
+      "33a78072-b48d-4b55-b5de-3617e0f1cb45",
+      "MCU"
     ]
   ],
   "text_variables": {}
