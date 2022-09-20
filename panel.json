@@ -1,0 +1,48 @@
+{
+    "source": {
+        "type": "auto",
+        "tolerance": "100mm"
+    },
+    "tabs": {
+        "type": "spacing",
+        "width": "4mm",
+        "spacing":"30mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.25mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "width": "8mm",
+        "chamfer": "1mm"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "4mm",
+        "voffset": "4mm",
+        "size": "2mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "5mm",
+        "coppersize": "2mm",
+        "opening": "4mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "4mm",
+        "width": "2mm",
+        "height": "2mm",
+        "text": "Capable Carrier [CRMHJN] v100"
+    },
+    "copperfill": {
+        "type": "solid",
+        "clearance":"0.5mm"
+    },
+    "post": {
+        "copperfill": true,
+        "millradius": "1mm"
+    }
+}
