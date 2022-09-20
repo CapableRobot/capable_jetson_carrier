@@ -1383,7 +1383,7 @@
       (reference "TP4") (unit 1) (value "Testpad") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/a9066f07-775b-413d-b6f9-2d07a24cce29"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-00005e7104f3"
       (reference "TP6") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
@@ -1433,11 +1433,17 @@
     (path "/00000000-0000-0000-0000-0000610accab/7b70ce1c-cd04-4ca5-ac20-de16f8fcd63d"
       (reference "TP21") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
     )
+    (path "/00000000-0000-0000-0000-000060d9f63d/06231888-e1b1-4642-b708-174b8c7dc6d1"
+      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710402"
       (reference "TP23") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-00005e710401"
       (reference "TP24") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
+    )
+    (path "/00000000-0000-0000-0000-000060d9f63d/ddcb5d71-6fe6-4d0a-beca-222d504f0850"
+      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/03bd1710-2b5e-40f6-899b-e377622723c3"
       (reference "TP26") (unit 1) (value "~") (footprint "jetson-nano-baseboard-footprints:TP-R-1.5")
