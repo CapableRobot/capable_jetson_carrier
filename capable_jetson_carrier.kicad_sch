@@ -233,9 +233,6 @@
     (path "/00000000-0000-0000-0000-000060d9f63d/e8404abe-dd4c-4e8b-a168-18dc21385656"
       (reference "#GND_08") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/89d8aed3-318f-477e-a948-4b7fdbd92c72"
-      (reference "#GND_09") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000608e1758/ca18f0d2-3cc0-4053-b17c-405703d06f23"
       (reference "#GND_010") (unit 1) (value "GND") (footprint "")
     )
@@ -493,6 +490,12 @@
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/11ba34f5-722b-411e-a990-fcf71aa0dd82"
       (reference "#GND_0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000610accab/2401c9ac-6744-4002-a022-c59fd7b958ff"
+      (reference "#GND_0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000610accab/0e656ec6-821a-4e8f-9f78-4c1c5457ccde"
+      (reference "#GND_0128") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000608e1758/00000000-0000-0000-0000-000060735e11"
       (reference "#GND_0150") (unit 1) (value "GND") (footprint "")
@@ -794,6 +797,9 @@
     (path "/00000000-0000-0000-0000-0000608df3e5/69651399-646a-43a3-bd3f-5c5905d53e1f"
       (reference "D1") (unit 1) (value "D_TVS") (footprint "Diode_SMD:D_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-0000610accab/fff495d0-5f23-4050-b914-a58aa06f0e14"
+      (reference "D2") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
+    )
     (path "/00000000-0000-0000-0000-0000608dc6e9/f21a905b-93dc-4e5c-b420-b1af6f6c8ea8"
       (reference "D3") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
     )
@@ -802,6 +808,9 @@
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/416692e2-cd3a-4415-8940-cbee50cc64aa"
       (reference "D5") (unit 1) (value "D_TVS") (footprint "Diode_SMD:D_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000610accab/16242f27-096a-49e1-a410-3679b33f9070"
+      (reference "D6") (unit 1) (value "PESD2USB5UV-TR") (footprint "jetson-nano-baseboard-footprints:SOT-23s")
     )
     (path "/00000000-0000-0000-0000-0000608dc6e9/00000000-0000-0000-0000-000062285628"
       (reference "D13") (unit 1) (value "1N4148WS") (footprint "jetson-nano-baseboard-footprints:SOD-323")
@@ -851,8 +860,8 @@
     (path "/00000000-0000-0000-0000-000060b0f7be/00000000-0000-0000-0000-00005e71045f"
       (reference "IC17") (unit 1) (value "AT24CS01-ST") (footprint "jetson-nano-baseboard-footprints:SOT23-5")
     )
-    (path "/00000000-0000-0000-0000-0000610accab/059ec092-b539-478b-8ab5-1c7482cc0b9d"
-      (reference "J1") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-0000610accab/080480b9-69f3-4723-a818-c7942a8e8c4f"
+      (reference "J1") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/79a0a675-bb51-4403-be4c-e31628cc0680"
       (reference "J2") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_Molex:Molex_Pico-Lock_504050-0591_1x05-1MP_P1.50mm_Horizontal")
@@ -1255,6 +1264,12 @@
     )
     (path "/00000000-0000-0000-0000-0000610accab/00000000-0000-0000-0000-000062cd1bdc"
       (reference "R97") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000610accab/11072648-9a92-42a2-be8a-e6d33d032704"
+      (reference "R98") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000610accab/42e26a33-edd3-4c4b-a8a6-408375638e75"
+      (reference "R99") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/fc714314-8a5f-43e0-9f71-fac5bb93da42"
       (reference "R102") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
