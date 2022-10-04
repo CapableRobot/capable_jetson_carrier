@@ -4,4 +4,5 @@
   (lib (name "capablerobot-power")(type "KiCad")(uri "${KIPRJMOD}/lib/capablerobot-power.kicad_sym")(options "")(descr ""))
   (lib (name "capablerobot-io")(type "KiCad")(uri "${KIPRJMOD}/lib/capablerobot-io.kicad_sym")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector_DebugEdge")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector_DebugEdge.kicad_sym")(options "")(descr ""))
 )

@@ -634,7 +634,7 @@
     (property "Value" "Testpad" (id 1) (at 52.578 59.182 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "jetson-nano-baseboard-footprints:TP-R-1.5" (id 2) (at 52.578 59.182 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 52.578 59.182 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 52.578 59.182 0)
