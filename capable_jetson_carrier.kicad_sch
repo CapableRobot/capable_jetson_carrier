@@ -233,6 +233,9 @@
     (path "/00000000-0000-0000-0000-000060d9f63d/e8404abe-dd4c-4e8b-a168-18dc21385656"
       (reference "#GND_08") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000608df3e5/4a51e919-7a98-4a50-a7c7-437d0631f0e1"
+      (reference "#GND_09") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000608e1758/ca18f0d2-3cc0-4053-b17c-405703d06f23"
       (reference "#GND_010") (unit 1) (value "GND") (footprint "")
     )
@@ -974,6 +977,9 @@
     (path "/00000000-0000-0000-0000-000060d9f63d/24b0d7cd-c221-4869-a0c4-8429176ff40c"
       (reference "Q3") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
     )
+    (path "/00000000-0000-0000-0000-0000608df3e5/36790e01-aa1d-4587-b6fc-8e143d0db26a"
+      (reference "Q4") (unit 1) (value "BSS138APW") (footprint "jetson-nano-baseboard-footprints:SC70-3")
+    )
     (path "/00000000-0000-0000-0000-0000610accab/6862ddc2-5f08-40a4-a3c9-ef2a41238633"
       (reference "R1") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
@@ -1067,7 +1073,7 @@
     (path "/33a78072-b48d-4b55-b5de-3617e0f1cb45/6a8dd1b7-5cb7-456e-b5b8-c08da6be2e47"
       (reference "R31") (unit 1) (value "R_10k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000608df3e5/d025c8b8-41e5-471a-8fbc-551332df578d"
+    (path "/00000000-0000-0000-0000-0000608df3e5/9e697bee-cb81-40ff-9aeb-4320ef5a4d75"
       (reference "R32") (unit 1) (value "R_0R_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/00000000-0000-0000-0000-000060db96d5"
@@ -1083,10 +1089,10 @@
       (reference "R36") (unit 1) (value "R_1k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/83d2e468-883e-45f8-a46b-578b158bea1e"
-      (reference "R37") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R37") (unit 1) (value "R_10k_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/e322a2e5-47de-42ac-b017-e79d7a141cdb"
-      (reference "R38") (unit 1) (value "R_10k_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R38") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608df3e5/157e9f3f-dc8b-4e72-95a8-578c20cda394"
       (reference "R39") (unit 1) (value "R_12k4_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1270,6 +1276,12 @@
     )
     (path "/00000000-0000-0000-0000-0000610accab/42e26a33-edd3-4c4b-a8a6-408375638e75"
       (reference "R99") (unit 1) (value "R_470R_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000608df3e5/33efb700-dc88-47be-b83a-80f5e4355bbb"
+      (reference "R100") (unit 1) (value "R_0R_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000608df3e5/e1a46966-4caa-4d5d-b5a8-f26a8d431420"
+      (reference "R101") (unit 1) (value "R_0R_0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060d9f63d/fc714314-8a5f-43e0-9f71-fac5bb93da42"
       (reference "R102") (unit 1) (value "R_2k_0402") (footprint "jetson-nano-baseboard-footprints:0402-res")
