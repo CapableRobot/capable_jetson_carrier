@@ -1,0 +1,39 @@
+Drill report for CRMHJN_capable_carrier.kicad_pcb
+Created on Tuesday, October 18, 2022 at 05:53:05 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  In3.Cu                    in3
+    L5 :  In4.Cu                    in4
+    L6 :  B.Cu                      back
+
+
+Drill file 'CRMHJN_capable_carrier.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.150mm  0.0059"  (807 holes)
+    T2  0.200mm  0.0079"  (15 holes)
+    T3  0.250mm  0.0098"  (13 holes)
+    T4  0.300mm  0.0118"  (93 holes)
+    T5  0.400mm  0.0157"  (7 holes)
+    T6  1.000mm  0.0394"  (6 holes)
+    T7  1.020mm  0.0402"  (4 holes)
+    T8  3.700mm  0.1457"  (6 holes)
+
+    Total plated holes count 951
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T9  0.500mm  0.0197"  (158 holes)
+    T10  1.100mm  0.0433"  (3 holes)
+    T11  1.600mm  0.0630"  (3 holes)
+    T12  2.000mm  0.0787"  (3 holes)
+    T13  3.000mm  0.1181"  (1 hole)
+    T14  3.200mm  0.1260"  (4 holes)
+
+    Total unplated holes count 172
